@@ -13,7 +13,18 @@ public class Demo1 {
        /*1 */ System.out.println(matcher.matches());
             matcher.reset();
             System.out.println(matcher.find());
-            
+
+            System.out.println(matcher2.matches());
+        matcher2.reset();
+        System.out.println(matcher2.find());
+
+        // System.out.println("------------------------"); 
+        // System.out.println(Pattern.matches("C-\\d{3}"),text1);  ----> another shortcut
+        // System.out.println(Pattern.matches("C-\\d{3}"),text2);
+
+        System.out.println(text1.matches("C-\\d{3}")); // shortcut of 1
+        System.out.println(text2.matches("C-\\d{3}"));
+
     }
     
 }
