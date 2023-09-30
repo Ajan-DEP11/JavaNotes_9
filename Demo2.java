@@ -6,6 +6,8 @@ public class Demo2 {
         D=3;
         System.out.println(N/D);
         System.out.println(D/N);
+        System.out.println(N%D);
+        System.out.println(D%N);
     }
     
 }
