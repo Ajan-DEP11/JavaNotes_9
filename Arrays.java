@@ -12,4 +12,8 @@ public class Arrays {
         System.out.println(number[i]);
        }
     }
+
+    public static char[] toString(int[] temp) {
+        return null;
+    }
 }
